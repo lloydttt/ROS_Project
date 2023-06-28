@@ -778,6 +778,19 @@ imu_main/fast:
 	$(MAKE) -f imu_show/CMakeFiles/imu_main.dir/build.make imu_show/CMakeFiles/imu_main.dir/build
 .PHONY : imu_main/fast
 
+#=============================================================================
+# Target rules for targets named points_show_main
+
+# Build rule for target.
+points_show_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 points_show_main
+.PHONY : points_show_main
+
+# fast build rule for target.
+points_show_main/fast:
+	$(MAKE) -f points_show/CMakeFiles/points_show_main.dir/build.make points_show/CMakeFiles/points_show_main.dir/build
+.PHONY : points_show_main/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -838,6 +851,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... imu_main"
+	@echo "... points_show_main"
 .PHONY : help
 
 

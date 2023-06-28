@@ -87,3 +87,11 @@
 /home/Trans_u/Datashow_s/build/imu_show/CMakeFiles/sensor_msgs_generate_messages_py.dir
 /home/Trans_u/Datashow_s/build/imu_show/CMakeFiles/rebuild_cache.dir
 /home/Trans_u/Datashow_s/build/imu_show/CMakeFiles/imu_main.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/install/strip.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/install/local.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/test.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/points_show_main.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/list_install_components.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/edit_cache.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/rebuild_cache.dir
+/home/Trans_u/Datashow_s/build/points_show/CMakeFiles/install.dir

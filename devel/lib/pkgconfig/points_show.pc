@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/devel
+
+Name: points_show
+Description: Description of points_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
