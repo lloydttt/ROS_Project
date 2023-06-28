@@ -281,12 +281,6 @@ DAVIDSDK_INCLUDE_DIR:PATH=DAVIDSDK_INCLUDE_DIR-NOTFOUND
 //Path to a library.
 DAVIDSDK_LIBRARY:FILEPATH=DAVIDSDK_LIBRARY-NOTFOUND
 
-//Value Computed by CMake
-DC_image_show_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/DC_image_show
-
-//Value Computed by CMake
-DC_image_show_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/DC_image_show
-
 //Path to a program.
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
@@ -624,7 +618,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=85ae74d89c3d
+SITE:STRING=106bb505fe76
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
