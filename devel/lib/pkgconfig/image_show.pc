@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/devel
+
+Name: image_show
+Description: Description of image_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

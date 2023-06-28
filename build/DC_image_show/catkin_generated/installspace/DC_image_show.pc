@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/install
+
+Name: DC_image_show
+Description: Description of DC_image_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
