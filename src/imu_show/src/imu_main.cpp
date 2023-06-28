@@ -30,7 +30,7 @@ void callbacki(const sensor_msgs::Imu::ConstPtr &a){
         std::cout<<"linear_acceleration_covariance: "<<a->linear_acceleration_covariance[i]<<std::endl;
     }
 
-    std::cout<<"················end··················"<<std::endl;
+    std::cout<<"                 end                 "<<std::endl;
     return ;
 
 }
