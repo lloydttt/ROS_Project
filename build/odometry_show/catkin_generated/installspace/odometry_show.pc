@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/install
+
+Name: odometry_show
+Description: Description of odometry_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

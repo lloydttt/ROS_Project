@@ -1,2 +1,2 @@
-imu_show
+imu_show:odometry_show
 -DCATKIN_DEVEL_PREFIX=/home/Trans_u/Datashow_s/devel -DCMAKE_INSTALL_PREFIX=/home/Trans_u/Datashow_s/install -G Unix Makefiles
