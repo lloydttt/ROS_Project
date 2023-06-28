@@ -1,9 +1,0 @@
-/home/Trans_u/Datashow_s/install/_setup_util.py
-/home/Trans_u/Datashow_s/install/env.sh
-/home/Trans_u/Datashow_s/install/setup.bash
-/home/Trans_u/Datashow_s/install/local_setup.bash
-/home/Trans_u/Datashow_s/install/setup.sh
-/home/Trans_u/Datashow_s/install/local_setup.sh
-/home/Trans_u/Datashow_s/install/setup.zsh
-/home/Trans_u/Datashow_s/install/local_setup.zsh
-/home/Trans_u/Datashow_s/install/.rosinstall

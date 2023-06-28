@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/devel
+
+Name: imu_show
+Description: Description of imu_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
