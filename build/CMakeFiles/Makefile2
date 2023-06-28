@@ -1703,6 +1703,61 @@ clean: imu_show/CMakeFiles/imu_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory points_show
+
+# Convenience name for "all" pass in the directory.
+points_show/all: points_show/CMakeFiles/points_show_main.dir/all
+
+.PHONY : points_show/all
+
+# Convenience name for "clean" pass in the directory.
+points_show/clean: points_show/CMakeFiles/points_show_main.dir/clean
+
+.PHONY : points_show/clean
+
+# Convenience name for "preinstall" pass in the directory.
+points_show/preinstall:
+
+.PHONY : points_show/preinstall
+
+#=============================================================================
+# Target rules for target points_show/CMakeFiles/points_show_main.dir
+
+# All Build rule for target.
+points_show/CMakeFiles/points_show_main.dir/all:
+	$(MAKE) -f points_show/CMakeFiles/points_show_main.dir/build.make points_show/CMakeFiles/points_show_main.dir/depend
+	$(MAKE) -f points_show/CMakeFiles/points_show_main.dir/build.make points_show/CMakeFiles/points_show_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/Trans_u/Datashow_s/build/CMakeFiles --progress-num=16,17 "Built target points_show_main"
+.PHONY : points_show/CMakeFiles/points_show_main.dir/all
+
+# Include target in all.
+all: points_show/CMakeFiles/points_show_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+points_show/CMakeFiles/points_show_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Trans_u/Datashow_s/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 points_show/CMakeFiles/points_show_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Trans_u/Datashow_s/build/CMakeFiles 0
+.PHONY : points_show/CMakeFiles/points_show_main.dir/rule
+
+# Convenience name for target.
+points_show_main: points_show/CMakeFiles/points_show_main.dir/rule
+
+.PHONY : points_show_main
+
+# clean rule for target.
+points_show/CMakeFiles/points_show_main.dir/clean:
+	$(MAKE) -f points_show/CMakeFiles/points_show_main.dir/build.make points_show/CMakeFiles/points_show_main.dir/clean
+.PHONY : points_show/CMakeFiles/points_show_main.dir/clean
+
+# clean rule for target.
+clean: points_show/CMakeFiles/points_show_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

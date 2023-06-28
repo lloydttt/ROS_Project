@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/Trans_u/Datashow_s/build/gtest/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/odometry_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/imu_show/cmake_install.cmake")
+  include("/home/Trans_u/Datashow_s/build/points_show/cmake_install.cmake")
 
 endif()
 

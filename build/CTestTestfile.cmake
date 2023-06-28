@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("odometry_show")
 subdirs("imu_show")
+subdirs("points_show")
