@@ -131,10 +131,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/Trans_u/Datashow_s/build/gtest/cmake_install.cmake")
+  include("/home/Trans_u/Datashow_s/build/openslam_gmapping-melodic-devel/cmake_install.cmake")
+  include("/home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/slam_gmapping/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/odometry_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/image_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/imu_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/points_show/cmake_install.cmake")
+  include("/home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping/cmake_install.cmake")
 
 endif()
 

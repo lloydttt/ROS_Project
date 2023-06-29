@@ -44,6 +44,9 @@ Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_t
 //Boost date_time library (release)
 Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
 //Boost filesystem library (debug)
 Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
@@ -618,7 +621,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=106bb505fe76
+SITE:STRING=b83fa8ab606f
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -628,6 +631,9 @@ UBUNTU_BIONIC:BOOL=TRUE
 
 //The directory containing VTKConfig.cmake
 VTK_DIR:PATH=/usr/lib/cmake/vtk-6.3
+
+//Path to a file.
+_file_name:FILEPATH=/home/Trans_u/Datashow_s/src/slam_gmapping-melodic-devel/gmapping/test/basic_localization_laser_different_beamcount.test
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -641,14 +647,26 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
+
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
+
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/melodic/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/melodic/share/bondcpp/cmake
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
+
+//Dependencies for target
+configfile_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
@@ -678,6 +696,12 @@ genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
 geometry_msgs_DIR:PATH=/opt/ros/melodic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
+gmapping_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping
+
+//Value Computed by CMake
+gmapping_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/slam_gmapping-melodic-devel/gmapping
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/gtest/googlemock
 
 //Dependencies for the target
@@ -697,6 +721,9 @@ googletest-distribution_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/gtest
 
 //Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=/usr/src/googletest
+
+//Dependencies for the target
+gridfastslam_LIB_DEPENDS:STATIC=general;scanmatcher;general;log;general;sensor_range;general;sensor_odometry;general;sensor_base;general;utils;
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/gtest/googlemock/gtest
@@ -742,10 +769,16 @@ imu_show_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/imu_show
 imu_show_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/imu_show
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/libroslz4.so
+
+//Dependencies for the target
+log_LIB_DEPENDS:STATIC=general;sensor_range;general;sensor_odometry;general;sensor_base;
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
@@ -753,11 +786,23 @@ message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
 
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
+
 //Value Computed by CMake
 odometry_show_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/odometry_show
 
 //Value Computed by CMake
 odometry_show_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/odometry_show
+
+//Value Computed by CMake
+openslam_gmapping_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/openslam_gmapping-melodic-devel
+
+//The directory containing a CMake configuration file for openslam_gmapping.
+openslam_gmapping_DIR:PATH=/home/Trans_u/Datashow_s/devel/share/openslam_gmapping/cmake
+
+//Value Computed by CMake
+openslam_gmapping_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/openslam_gmapping-melodic-devel
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
@@ -767,6 +812,9 @@ points_show_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/points_show
 
 //Value Computed by CMake
 points_show_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/points_show
+
+//The directory containing a CMake configuration file for rosbag_storage.
+rosbag_storage_DIR:PATH=/opt/ros/melodic/share/rosbag_storage/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -780,23 +828,77 @@ roscpp_serialization_DIR:PATH=/opt/ros/melodic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/melodic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
 
+//The directory containing a CMake configuration file for roslz4.
+roslz4_DIR:PATH=/opt/ros/melodic/share/roslz4/cmake
+
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/melodic/share/rospack/cmake
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/melodic/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
 
+//Dependencies for the target
+scanmatcher_LIB_DEPENDS:STATIC=general;log;general;sensor_range;general;sensor_odometry;general;sensor_base;general;utils;
+
+//Dependencies for target
+sensor_base_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
 
+//Dependencies for the target
+sensor_odometry_LIB_DEPENDS:STATIC=general;sensor_base;
+
+//Dependencies for the target
+sensor_range_LIB_DEPENDS:STATIC=general;sensor_base;
+
+//Value Computed by CMake
+slam_gmapping_BINARY_DIR:STATIC=/home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/slam_gmapping
+
+//Value Computed by CMake
+slam_gmapping_SOURCE_DIR:STATIC=/home/Trans_u/Datashow_s/src/slam_gmapping-melodic-devel/slam_gmapping
+
+//Dependencies for the target
+slam_gmapping_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libnodeletlib.so;general;/opt/ros/melodic/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;utils;general;sensor_base;general;sensor_odometry;general;sensor_range;general;log;general;configfile;general;scanmatcher;general;gridfastslam;general;/opt/ros/melodic/lib/libtf.so;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librosbag_storage.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libroslz4.so;general;/usr/lib/x86_64-linux-gnu/liblz4.so;
+
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/melodic/share/smclib/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/melodic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/melodic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/melodic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/melodic/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/melodic/share/tf/cmake
+
+//Dependencies for target
+utils_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -818,6 +920,8 @@ Boost_CHRONO_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
 Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
@@ -953,7 +1057,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -994,6 +1098,14 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Compiler support for a deprecated attribute
+COMPILER_HAS_DEPRECATED:INTERNAL=1
+//Test COMPILER_HAS_DEPRECATED_ATTR
+COMPILER_HAS_DEPRECATED_ATTR:INTERNAL=1
+//Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+COMPILER_HAS_HIDDEN_INLINE_VISIBILITY:INTERNAL=1
+//Test COMPILER_HAS_HIDDEN_VISIBILITY
+COMPILER_HAS_HIDDEN_VISIBILITY:INTERNAL=1
 //ADVANCED property for variable: DSSDK_LIBRARY_DepthSense
 DSSDK_LIBRARY_DepthSense-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DSSDK_LIBRARY_DepthSensePlugins
@@ -1318,10 +1430,6 @@ PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
 RSSDK_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: RSSDK_LIBRARY_DEBUG
 RSSDK_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//Last used BOOST_INCLUDEDIR value.
-_BOOST_INCLUDEDIR_LAST:INTERNAL=/usr/include
-//Last used Boost_ADDITIONAL_VERSIONS value.
-_Boost_ADDITIONAL_VERSIONS_LAST:INTERNAL=1.65.1;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55;1.54.0;1.54;1.53.0;1.53;1.52.0;1.52;1.51.0;1.51;1.50.0;1.50;1.49.0;1.49;1.48.0;1.48;1.47.0;1.47
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;iostreams;regex;serialization;system;thread
 //Last used Boost_INCLUDE_DIR value.
