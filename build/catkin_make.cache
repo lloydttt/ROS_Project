@@ -1,2 +1,2 @@
-image_show:imu_show:odometry_show:openslam_gmapping-melodic-devel:points_show:slam_gmapping-melodic-devel/gmapping:slam_gmapping-melodic-devel/slam_gmapping
+image_show:imu_show:my_slam_gmapping:odometry_show:openslam_gmapping-melodic-devel:points_show:slam_gmapping-melodic-devel/gmapping:slam_gmapping-melodic-devel/slam_gmapping
 -DCATKIN_DEVEL_PREFIX=/home/Trans_u/Datashow_s/devel -DCMAKE_INSTALL_PREFIX=/home/Trans_u/Datashow_s/install -G Unix Makefiles
