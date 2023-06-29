@@ -1727,6 +1727,19 @@ run_tests_gmapping/fast:
 	$(MAKE) -f slam_gmapping-melodic-devel/gmapping/CMakeFiles/run_tests_gmapping.dir/build.make slam_gmapping-melodic-devel/gmapping/CMakeFiles/run_tests_gmapping.dir/build
 .PHONY : run_tests_gmapping/fast
 
+#=============================================================================
+# Target rules for targets named my_slam_gmapping
+
+# Build rule for target.
+my_slam_gmapping: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_slam_gmapping
+.PHONY : my_slam_gmapping
+
+# fast build rule for target.
+my_slam_gmapping/fast:
+	$(MAKE) -f my_slam_gmapping/CMakeFiles/my_slam_gmapping.dir/build.make my_slam_gmapping/CMakeFiles/my_slam_gmapping.dir/build
+.PHONY : my_slam_gmapping/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1860,6 +1873,7 @@ help:
 	@echo "... _run_tests_gmapping_rostest"
 	@echo "... slam_gmapping_replay"
 	@echo "... run_tests_gmapping"
+	@echo "... my_slam_gmapping"
 .PHONY : help
 
 

@@ -195,3 +195,11 @@
 /home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping/CMakeFiles/_run_tests_gmapping_rostest.dir
 /home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping/CMakeFiles/slam_gmapping_replay.dir
 /home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping/CMakeFiles/run_tests_gmapping.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/install/local.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/test.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/list_install_components.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/install/strip.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/my_slam_gmapping.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/rebuild_cache.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/edit_cache.dir
+/home/Trans_u/Datashow_s/build/my_slam_gmapping/CMakeFiles/install.dir
