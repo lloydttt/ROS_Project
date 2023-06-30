@@ -138,7 +138,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/Trans_u/Datashow_s/build/imu_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/points_show/cmake_install.cmake")
   include("/home/Trans_u/Datashow_s/build/slam_gmapping-melodic-devel/gmapping/cmake_install.cmake")
-  include("/home/Trans_u/Datashow_s/build/my_slam_gmapping/cmake_install.cmake")
 
 endif()
 
