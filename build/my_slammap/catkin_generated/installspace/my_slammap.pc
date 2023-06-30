@@ -1,0 +1,8 @@
+prefix=/home/Trans_u/Datashow_s/install
+
+Name: my_slammap
+Description: Description of my_slammap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
