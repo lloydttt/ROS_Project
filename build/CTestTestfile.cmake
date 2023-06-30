@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("openslam_gmapping-melodic-devel")
 subdirs("slam_gmapping-melodic-devel/slam_gmapping")
+subdirs("my_slammap")
 subdirs("odometry_show")
 subdirs("image_show")
 subdirs("imu_show")

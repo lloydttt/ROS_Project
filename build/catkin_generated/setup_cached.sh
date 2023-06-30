@@ -7,6 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export CMAKE_PREFIX_PATH="/home/Trans_u/Datashow_s/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/Trans_u/Datashow_s/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/Trans_u/Datashow_s/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/Trans_u/Datashow_s/src:$ROS_PACKAGE_PATH"
