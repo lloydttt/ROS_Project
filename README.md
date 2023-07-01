@@ -9,4 +9,4 @@
 
 ## 相关地址
 仓库地址：[Gitee仓库](https://gitee.com/lloydtt/ROS_Project)
-视频地址：[B站视频]()
+视频地址：[B站视频](https://www.bilibili.com/video/BV1yN411U7Lu/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=a0cf3dbb8b6075e67c67d5f04744d98f)
